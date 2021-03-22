@@ -6,10 +6,6 @@ import lunar from '../images/lunar.png';
 import GreenGirls from '../images/GreenGirls.png';
 import MCTD from '../images/MCTD.png';
 import chess from '../images/chess.png';
-import mag1 from '../images/mag1.png';
-import mag2 from '../images/mag2.png';
-import mag3 from '../images/mag3.png';
-
 
 class Projects extends React.Component {
   constructor(props) {
@@ -22,23 +18,36 @@ class Projects extends React.Component {
     if (this.state.activeTab == 0){
       return(
         <div className="projects-grid">
-          {/*UI Mockups*/}
+        {/*UI Mockups*/}
           {/*Project 1*/}
           <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#c3846b', height: '176px', background: `url(${lunar}) center / cover`}}></CardTitle>
             <CardText>
-            UI Design for a home decor web page — “lunar”
+            UX Case Study — 'magnolia cafe'
             </CardText>
             <CardActions buttons>
                 <a href="https://www.instagram.com/p/CEhWogrhwFS/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
-                <Button colored>Instagram</Button>
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
                 </a>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
+                <Button style={{color: '#c3846b'}}>Case Study</Button></a>
+            </CardActions>
+          </Card>
+
+          {/*Project 2*/}
+          <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#c3846b', height: '176px', background: `url(${lunar}) center / cover`}}></CardTitle>
+            <CardText>
+            UI Design for a home decor web page — 'lunar'
+            </CardText>
+            <CardActions buttons>
+                <a href="https://www.instagram.com/p/CEhWogrhwFS/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
+                </a>
             </CardActions>
           </Card>
           
-          {/*Project 2*/}
+          {/*Project 3*/}
           <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${breeze}) center / cover`}}></CardTitle>
             <CardText>
@@ -46,14 +55,12 @@ class Projects extends React.Component {
             </CardText>
             <CardActions buttons>
                 <a href="https://www.instagram.com/p/CEez6RRhj7w/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
-                <Button colored>Instagram</Button>
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
                 </a>
-                <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
             </CardActions>
           </Card>
           
-          {/*Project 3*/}
+          {/*Project 4*/}
           <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${flux}) center / cover`}}></CardTitle>
             <CardText>
@@ -61,12 +68,11 @@ class Projects extends React.Component {
             </CardText>
             <CardActions buttons>
                 <a href="https://www.instagram.com/p/CEmlGL2BweA/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
-                <Button colored>Instagram</Button>
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
                 </a>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
+                <Button style={{color: '#c3846b'}}>N/A</Button></a>
             </CardActions>
-            
           </Card>
         </div>
       )
@@ -83,10 +89,8 @@ class Projects extends React.Component {
             </CardText>
             <CardActions buttons>
                 <a href="https://www.instagram.com/p/CCFEi7lhwDl/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
-                <Button colored>Instagram</Button>
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
                 </a>
-                <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
             </CardActions>
           </Card>
           
@@ -98,10 +102,8 @@ class Projects extends React.Component {
             </CardText>
             <CardActions buttons>
                 <a href="https://www.instagram.com/p/CKhKdRzBkAM/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
-                <Button colored>Instagram</Button>
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
                 </a>
-                <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
             </CardActions>
           </Card>
           
@@ -135,47 +137,80 @@ class Projects extends React.Component {
             </CardText>
             <CardActions buttons>
                 <a href="https://www.instagram.com/p/B_F6p7Zh2RO/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
-                <Button colored>Instagram</Button>
+                <Button style={{color: '#c3846b'}}>Instagram</Button>
                 </a>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
+                <Button style={{color: '#c3846b'}}>Case Study</Button></a>
             </CardActions>
           </Card>
           
           {/*Project 2*/}
           <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px'}}>React Project 1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px'}}></CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris sagittis pellentesque lacus eleifend lacinia...
             </CardText>
             <CardActions buttons>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>GitHub</Button>
+                <Button style={{color: '#c3846b'}}>GitHub</Button>
                 </a>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
+                <Button style={{color: '#c3846b'}}>LiveDemo</Button></a>
             </CardActions>
           </Card>
           
           {/*Project 3*/}
           <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px'}}>React Project 1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px'}}></CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris sagittis pellentesque lacus eleifend lacinia...
             </CardText>
             <CardActions buttons>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>GitHub</Button>
+                <Button style={{color: '#c3846b'}}>GitHub</Button>
                 </a>
                 <a href="http://wwww.github.com" target="_blank" rel="noreferrer">
-                <Button colored>LiveDemo</Button></a>
+                <Button style={{color: '#c3846b'}}>LiveDemo</Button></a>
             </CardActions>
           </Card>
         </div>
       )
-    }
+
+          {/*Content Creation*/}
+     } else if (this.state.activeTab == 3){
+          return(
+            <div className="projects-grid">
+              {/*Project 1*/}
+              <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: `url(${chess}) center / cover`}}></CardTitle>
+                <CardText>
+                    Content Creation for personal Instagram page
+                </CardText>
+                <CardActions buttons>
+                    <a href="https://www.instagram.com/p/B_F6p7Zh2RO/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer">
+                    <Button style={{color: '#c3846b'}}>View More</Button>
+                    </a>
+                </CardActions>
+              </Card>
+              
+              {/*Project 2*/}
+              <Card shadow={0} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: `url(${chess}) center / cover`}}></CardTitle>
+                <CardText>
+                Content Creation for @SorryCoffee Instagram page
+                </CardText>
+                <CardActions buttons>
+                    <a href="http://wwww.instagram.com/sorrycoffee" target="_blank" rel="noreferrer">
+                    <Button style={{color: '#c3846b'}}>GitHub</Button>
+                    </a>
+                </CardActions>
+              </Card>
+            
+            </div>
+          )
+        }
   }
   
   
@@ -183,9 +218,10 @@ class Projects extends React.Component {
     return(
         <div>
           <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-            <Tab>UI Mockups</Tab>
+            <Tab>Case Studies / UI Mockups</Tab>
             <Tab>Logo Design</Tab>
-            <Tab>3D Design</Tab>
+            <Tab>3D Design / AR Design</Tab>
+            <Tab>Content Creation</Tab>
           </Tabs>
 
           <Grid>

@@ -9,11 +9,10 @@ class App extends React.Component {
       return (
         <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Winnie Zhang</Link>} scroll>
+          <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Baskerville', fontSize: '1.5em'}} to="/">home</Link>} scroll>
               <Navigation>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About Me</Link>
+                  <Link  to="/projects" style={{fontFamily: 'Baskerville', fontSize: '1.5em'}}>projects</Link>
+                  <Link  to="/aboutme" style={{fontFamily: 'Baskerville', fontSize: '1.5em'}}>about me</Link>
               </Navigation>
           </Header>
           <Content>

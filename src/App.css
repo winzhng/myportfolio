@@ -4,19 +4,35 @@
 }
   .landing-grid {
     background-color: #f7e6d3;
-    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
-  
-  .projects-grid {
-    display: flex;
-  }
-  /* Projects Page css */
 
+  .intro h1{
+    color: #c3846b;
+    font-size: 4em;
+    font-family: 'Baskervville', serif; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 1.25em;
+    text-align: left;
+  }
+
+  .intro h4{
+    color: #c3846b;
+    font-family: 'Montserrat', serif; 
+    margin-left: 3em;
+    text-align: left;
+  }
+
+  /* Projects Page css */
+    .projects-grid{
+      display: flex;
+    }
+ 
 
   /* Resume Page css */
   .resume-right-col {
@@ -56,55 +72,26 @@
   .contact-grid {
     text-align: center;
     justify-content: center;
-    width: 80%;
+    width: 85%;
     height: 550px;
     background: #f7f0e9;;
     margin-bottom: 20px;
   }
   
-  .contact-grid h3 {
-    font-family: 'Anton', sans-serif;
-  }
-  
-  .contact-grid p {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-  }
-  
   .contact-grid hr {
-    border-top: 5px dotted #4c4c4c;
+    border-top: 5px;
     width: 50%;
     margin: auto;
   }
   
-  .contact-list i {
-    font-size: 66px;
-    padding-right: 5rem;
+  .contact-list i{
+    font-size: 50px;
+    padding-left: 2em;
+    padding-right: 2rem;
   }
   
   
   /* contact page css */
-  
-  .avatar-img {
-    height: 200px;
-    padding-top: 6em;
-  }
-  
-  .banner-text {
-    background-color: #c3846b;
-    opacity: .7;
-    width: 75%;
-    margin: auto;
-    border-radius: 10px;
-  }
-  
-  .banner-text h1 {
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
-    padding-top: 50px;
-  }
-  
   .banner-text hr {
     border-top: 5px dotted white;
     width: 80%;
@@ -119,13 +106,11 @@
   
   .social-links {
     display: flex;
-    justify-content: space-between;
-    width: 20%;
-    margin: auto;
+    margin-left: 5em;
   }
   
   .social-links i {
-    color: white;
+    color: #df7e7e;
     font-size: 3em;
-    padding-bottom: 50px;
+    padding-right: 20px;
   }
