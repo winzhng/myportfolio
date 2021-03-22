@@ -11,8 +11,8 @@ class App extends React.Component {
         <Layout>
           <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Baskerville', fontSize: '1.5em'}} to="/">home</Link>} scroll>
               <Navigation>
-                  <Link  to="/projects" style={{fontFamily: 'Baskerville', fontSize: '1.5em'}}>projects</Link>
-                  <Link  to="/aboutme" style={{fontFamily: 'Baskerville', fontSize: '1.5em'}}>about me</Link>
+                  <Link  to="/myportfolio/projects" style={{fontFamily: 'Baskerville', fontSize: '1.5em'}}>projects</Link>
+                  <Link  to="/myportfolio/aboutme" style={{fontFamily: 'Baskerville', fontSize: '1.5em'}}>about me</Link>
               </Navigation>
           </Header>
           <Content>
